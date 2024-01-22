@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment Three</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+    <style>
+        .manrope{
+            font-family:'Manrope', sans-serif;
+        }
+    </style>
+</head>
+<body class="manrope">
+    <header class="container mx-[auto]">
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                  <li><a><samp class="text-[#FF4240]">Home</samp></a></li>
+                  <li><a>About</a></li>
+                  <li><a>Pages</a></li>
+                  <li><a>Blog</a></li>
+                  <li><a>Contact</a></li>
+                </ul>
+              </div>
+              <a class="text-3xl font-extrabold">Hockey<samp class="text-[#FF4240]">’</samp>s</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a><samp class="text-[#FF4240]">Home</samp></a></li>
+                <li><a>About</a></li>
+                <li><a>Pages</a></li>
+                <li><a>Blog</a></li>
+                <li><a>Contact</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end">
+                <div><img src="images/Frame.svg" alt=""></div>
+              <a class="btn bg-[#FF4240] text-white">Get Ticket</a>
+            </div>
+          </div>
+    </header>
+    <main>
+        <section>
+
+        </section>
+    </main>
+    <footer class="p-10 bg-[#131318] text-base-content text-[#FFF] lg:flex justify-around">
+        <aside class="space-y-2 lg:space-y-6 text-center md:text-center px-[auto]">
+          <h2 class="font-extrabold text-3xl">Get In Touch</h2>
+          <p class="text-[#FFFFFF99]">Dit amet consectetur. Condimentum <br>
+            adipiscing aliquam turpis placerat dolor. <br>Purus urna in sit nullam proin.</p>
+            <div class="flex text-[#FFFFFF99]"><img src="images/Frame (1).png" alt="">01741-346935</div>
+            <div class="flex text-[#FFFFFF99]"><img src="images/Frame.png" alt="">rafaulgoni787898@gmail.com</div>
+        </aside>
+        <nav class="grid grid-cols-2 lg:grid-cols-3 space-y-6 md:space-y-4"> 
+        <nav>
+            <header class="font-bold text-[#FFF]">Company</header> 
+            <ul class="space-y-2 lg:space-y-6 text-[#FFFFFF99]">
+                <li><a class="link link-hover">About us</a></li>
+                <li><a class="link link-hover">Leadership</a></li>
+                <li><a class="link link-hover">Careers</a></li>
+                <li><a class="link link-hover">Press kit</a></li>
+                <li><a class="link link-hover">News & Article</a></li>
+            </ul>
+        </nav>
+        <nav class="lg:px-[100px]">
+          <header class="font-bold text-[#FFF]">Support</header>
+            <ul class="space-y-2 lg:space-y-6 text-[#FFFFFF99]"> 
+                <li><a class="link link-hover">Help Center</a></li>
+                <li><a class="link link-hover">FAQ</a></li>
+                <li><a class="link link-hover">Ticket Support</a></li>
+                <li><a class="link link-hover">Contact Us</a></li>
+            </ul>
+        </nav>
+        <nav class="text-center md:text-center px-[auto]">
+            <header class="font-bold text-[#FFF]">Services</header> 
+            <ul class="space-y-2 lg:space-y-6 text-[#FFFFFF99]">
+                <li><a class="link link-hover">Design</a></li>
+                <li><a class="link link-hover">Group Lesson</a></li>
+                <li><a class="link link-hover">Trivate Lesson</a></li>
+                <li><a class="link link-hover">Hockeys for kids</a></li>
+                <li><a class="link link-hover">Hockeys for Adult</a></li>
+            </ul>
+        </nav>
+        </nav> 
+      </footer>
+</body>
+</html>
