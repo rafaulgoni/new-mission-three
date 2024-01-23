@@ -60,8 +60,67 @@
           </div>
     </header>
     <main>
-        <section>
-
+        <section class="container mx-auto">
+            <div class="carousel w-full md:m-[auto]">
+                <div id="slide1" class="carousel-item relative w-full">
+                  <img src="./images/1.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle">❮</a> 
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide2" class="carousel-item relative w-full">
+                  <img src="./images/11.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle">❮</a> 
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+            </div>
+            <div class="card max-w-[100%] m-3 md:m-[auto] lg:w-96 bg-[#131318] text-neutral-content lg:absolute lg:bottom-[20%] lg:left-[65%]">
+              <div class="card-body items-center text-center">
+                <h2 class="card-title text-white">Meet all the heroes from the field</h2>
+                <p class="text-[#FFFFFF99]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+              </div>
+            </div>
+        </section>
+        <section class="container mx-auto m-10">
+          <hr>
+          <div class="text-center lg:p-20">
+            <h3 class="font-extrabold lg:text-2xl">Professional Hockeys Club</h3>
+            <p class="max-w-96 mx-auto">In the heart of competitive arenas, professional hockey clubs emerge as bastions of skill, teamwork, and unwavering determination.</p>
+          </div>
+            <hr class="max-w-[600px] mx-auto">
+        </section>
+        <section class="container mx-auto grid grid-cols-1 lg:grid-cols-4">
+          <div class="card bg-[#FFF]">
+            <div class="radial-progress text-red-900" style="--value:77;" role="progressbar">77%</div>
+            <div class="card-body">
+              <h2 class="card-title text-[#131318]">Senior Player</h2>
+              <p>If a dog chews shoes whose shoes does he choose?</p>
+            </div>
+          </div>
+          <div class="card bg-[#FFF]">
+            <div class="radial-progress text-green-800" style="--value:95;" role="progressbar">95%</div>
+            <div class="card-body">
+              <h2 class="card-title text-[#131318]">Prayer Facility</h2>
+              <p>If a dog chews shoes whose shoes does he choose?</p>
+            </div>
+          </div>
+          <div class="card bg-[#FFF]">
+            <div class="radial-progress text-yellow-500" style="--value:69;" role="progressbar">69%</div>
+            <div class="card-body">
+              <h2 class="card-title text-[#131318]">Experienced Coach</h2>
+              <p>If a dog chews shoes whose shoes does he choose?</p>
+            </div>
+          </div>
+          <div class="card bg-[#FFF]">
+            <div class="radial-progress text-blue-800" style="--value:88;" role="progressbar">88%</div>
+            <div class="card-body">
+              <h2 class="card-title text-[#131318]">Training Ground</h2>
+              <p>If a dog chews shoes whose shoes does he choose?</p>
+            </div>
+          </div>
         </section>
     </main>
     <footer class="p-10 bg-[#131318] text-base-content text-[#FFF] lg:flex justify-around">
@@ -72,10 +131,10 @@
             <div class="flex text-[#FFFFFF99]"><img src="images/Frame (1).png" alt="">01741-346935</div>
             <div class="flex text-[#FFFFFF99]"><img src="images/Frame.png" alt="">rafaulgoni787898@gmail.com</div>
         </aside>
-        <nav class="grid grid-cols-2 lg:grid-cols-3 space-y-6 md:space-y-4"> 
+      <nav class="grid grid-cols-2 lg:grid-cols-3"> 
         <nav>
             <header class="font-bold text-[#FFF]">Company</header> 
-            <ul class="space-y-2 lg:space-y-6 text-[#FFFFFF99]">
+            <ul class="space-y-1 lg:space-y-6 text-[#FFFFFF99]">
                 <li><a class="link link-hover">About us</a></li>
                 <li><a class="link link-hover">Leadership</a></li>
                 <li><a class="link link-hover">Careers</a></li>
@@ -101,7 +160,7 @@
                 <li><a class="link link-hover">Hockeys for kids</a></li>
                 <li><a class="link link-hover">Hockeys for Adult</a></li>
             </ul>
-        </nav>
+      </nav>
         </nav> 
       </footer>
 </body>
